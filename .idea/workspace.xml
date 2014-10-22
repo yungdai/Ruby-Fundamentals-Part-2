@@ -17,7 +17,7 @@
     <SUITE FILE_PATH="coverage/Ruby Fundamentals Part 2@IRB_console__Ruby_Fundamentals_Part_2.coverage" NAME="IRB console: Ruby Fundamentals Part 2 Coverage Results" MODIFIED="1413989884784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Fundamentals Part 2" />
     <SUITE FILE_PATH="coverage/Ruby Fundamentals Part 2@collections.coverage" NAME="collections Coverage Results" MODIFIED="1413993529554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Fundamentals Part 2" />
     <SUITE FILE_PATH="coverage/Ruby Fundamentals Part 2@arrays.coverage" NAME="arrays Coverage Results" MODIFIED="1413994330796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Fundamentals Part 2" />
-    <SUITE FILE_PATH="coverage/Ruby Fundamentals Part 2@excercise6.coverage" NAME="excercise6 Coverage Results" MODIFIED="1414002520950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Fundamentals Part 2" />
+    <SUITE FILE_PATH="coverage/Ruby Fundamentals Part 2@excercise6.coverage" NAME="excercise6 Coverage Results" MODIFIED="1414003540214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Fundamentals Part 2" />
     <SUITE FILE_PATH="coverage/Ruby Fundamentals Part 2@method.coverage" NAME="method Coverage Results" MODIFIED="1413989839701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Fundamentals Part 2" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -45,8 +45,8 @@
       <file leaf-file-name="excercise6.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/excercise6.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14583333" vertical-offset="0" max-vertical-offset="720">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.7083333" vertical-offset="0" max-vertical-offset="720">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -240,28 +240,6 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="excercise6" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="Ruby Fundamentals Part 2" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/excercise6.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
     <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="" />
@@ -413,21 +391,42 @@
       <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
       <method />
     </configuration>
+    <configuration default="false" name="excercise6" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="Ruby Fundamentals Part 2" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/excercise6.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.methods" />
-      <item index="1" class="java.lang.String" itemvalue="IRB console.IRB console: Ruby Fundamentals Part 2" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.collections" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.arrays" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.excercise5" />
-      <item index="5" class="java.lang.String" itemvalue="Ruby.excercise6" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.excercise6" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.methods" />
+      <item index="2" class="java.lang.String" itemvalue="IRB console.IRB console: Ruby Fundamentals Part 2" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.collections" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.arrays" />
+      <item index="5" class="java.lang.String" itemvalue="Ruby.excercise5" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.excercise6" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.excercise5" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.arrays" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.collections" />
-        <item index="4" class="java.lang.String" itemvalue="IRB console.IRB console: Ruby Fundamentals Part 2" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Ruby.excercise5" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.arrays" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.collections" />
+        <item index="3" class="java.lang.String" itemvalue="IRB console.IRB console: Ruby Fundamentals Part 2" />
       </list>
     </recent_temporary>
   </component>
@@ -573,8 +572,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/excercise6.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14583333" vertical-offset="0" max-vertical-offset="720">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.7083333" vertical-offset="0" max-vertical-offset="720">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
