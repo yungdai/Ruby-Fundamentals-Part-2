@@ -29,3 +29,13 @@ end
 
 puts "The cohorts names are"
 keys(students)
+
+puts ""
+
+# 4. The classrooms have been expanded: increase each cohort number by 5% and display the new
+# results.
+
+students.each do |cohort, student_amount|
+  puts "#{cohort} used to have #{student_amount}, added 5% more students and now has #{student_amount = (student_amount * 1.05).to_i} students"
+end
+
