@@ -20,4 +20,12 @@ student_list(students)
 # 2.  Add 43 as the amount of students for cohort 4.
 
 students[:cohort4] = 43
+puts ""
+# 3. Output all of the cohort names with the keys method.
 
+def keys(students)
+  students.each{|cohort, student_number| puts cohort}
+end
+
+puts "The cohorts names are"
+keys(students)
