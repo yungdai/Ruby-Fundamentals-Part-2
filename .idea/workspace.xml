@@ -17,7 +17,7 @@
     <SUITE FILE_PATH="coverage/Ruby Fundamentals Part 2@IRB_console__Ruby_Fundamentals_Part_2.coverage" NAME="IRB console: Ruby Fundamentals Part 2 Coverage Results" MODIFIED="1413989884784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Fundamentals Part 2" />
     <SUITE FILE_PATH="coverage/Ruby Fundamentals Part 2@collections.coverage" NAME="collections Coverage Results" MODIFIED="1413993529554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Fundamentals Part 2" />
     <SUITE FILE_PATH="coverage/Ruby Fundamentals Part 2@arrays.coverage" NAME="arrays Coverage Results" MODIFIED="1413994330796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Fundamentals Part 2" />
-    <SUITE FILE_PATH="coverage/Ruby Fundamentals Part 2@excercise6.coverage" NAME="excercise6 Coverage Results" MODIFIED="1414003824285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Fundamentals Part 2" />
+    <SUITE FILE_PATH="coverage/Ruby Fundamentals Part 2@excercise6.coverage" NAME="excercise6 Coverage Results" MODIFIED="1414004179492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Fundamentals Part 2" />
     <SUITE FILE_PATH="coverage/Ruby Fundamentals Part 2@method.coverage" NAME="method Coverage Results" MODIFIED="1413989839701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Ruby Fundamentals Part 2" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -45,7 +45,7 @@
       <file leaf-file-name="excercise6.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/excercise6.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9335219" vertical-offset="0" max-vertical-offset="750">
+            <state vertical-scroll-proportion="0.6817539" vertical-offset="178" max-vertical-offset="975">
               <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
               <folding />
             </state>
@@ -572,7 +572,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/excercise6.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9335219" vertical-offset="0" max-vertical-offset="750">
+        <state vertical-scroll-proportion="0.6817539" vertical-offset="178" max-vertical-offset="975">
           <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
           <folding />
         </state>

@@ -43,3 +43,18 @@ if grocery_search == false
 else
   puts "You don't need to pick up bananas today"
 end
+
+puts ""
+# 5. Display the second item in the list. (Don't forget that arrays are zero-indexed!)
+
+puts "The second item in the grocery list is: #{grocery_list[1]}"
+puts ""
+
+# 6. It turns out that everything in this grocery store you're visiting is stored alphabetically,
+# so to better plan out what you need to buy, you should sort your grocery list and output it with
+# asterisks again.
+
+grocery_list = grocery_list.sort
+puts "The grocery list in alphabetical order is:\n"
+groceries(grocery_list)
+puts ""
