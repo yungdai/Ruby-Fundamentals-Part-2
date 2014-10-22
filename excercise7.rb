@@ -39,3 +39,9 @@ students.each do |cohort, student_amount|
   puts "#{cohort} used to have #{student_amount}, added 5% more students and now has #{student_amount = (student_amount * 1.05).to_i} students"
 end
 
+puts ""
+
+# 5. Delete the 2nd cohort, and redisplay the cohorts
+puts "Delted cohort2 from the list:"
+students.delete(:cohort2)
+student_list(students)
