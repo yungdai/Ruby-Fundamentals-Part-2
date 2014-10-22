@@ -33,8 +33,8 @@ puts ""
 grocery_totalitems = grocery_list.length
 puts "There are a total of #{grocery_totalitems} in the grocery list."
 puts ""
-# 4. Check to see if your list includes "bananas". If it does, output "You need to pick up bananas".
-# Otherwise, output "You don't need to pick up bananas today".
+# 4. Check to see if your list includes "bananas". If it does, output "You need to pick up
+# bananas".  Otherwise, output "You don't need to pick up bananas today".
 
 grocery_search = grocery_list.include?("bananas")
 
@@ -51,10 +51,20 @@ puts "The second item in the grocery list is: #{grocery_list[1]}"
 puts ""
 
 # 6. It turns out that everything in this grocery store you're visiting is stored alphabetically,
-# so to better plan out what you need to buy, you should sort your grocery list and output it with
-# asterisks again.
+# so to better plan out what you need to buy, you should sort your grocery list and output
+# it with asterisks again.
 
 grocery_list = grocery_list.sort
 puts "The grocery list in alphabetical order is:\n"
 groceries(grocery_list)
 puts ""
+
+# 7. After looking everywhere, you can't find the salmon. Delete it from your list
+# and redisplay it.
+
+grocery_list.delete("salmon")
+
+puts "Couldn't find salmon, so it was removed from the grocery list."
+puts "The new grocery list is:"
+
+groceries(grocery_list)
