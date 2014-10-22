@@ -25,10 +25,21 @@ grocery_list.each{|item| puts "* #{item}"}
 end
 
 groceries(grocery_list)
+puts ""
 
 # 3. You lost count of how many things you need to pick up. Better output the total
 # number of items on your list.
 
 grocery_totalitems = grocery_list.length
 puts "There are a total of #{grocery_totalitems} in the grocery list."
+puts ""
+# 4. Check to see if your list includes "bananas". If it does, output "You need to pick up bananas".
+# Otherwise, output "You don't need to pick up bananas today".
 
+grocery_search = grocery_list.include?("bananas")
+
+if grocery_search == false
+  puts "You need to pick up bananas"
+else
+  puts "You don't need to pick up bananas today"
+end
