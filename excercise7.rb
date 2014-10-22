@@ -42,6 +42,21 @@ end
 puts ""
 
 # 5. Delete the 2nd cohort, and redisplay the cohorts
-puts "Delted cohort2 from the list:"
+puts "Deleted cohort2 from the list:"
 students.delete(:cohort2)
 student_list(students)
+
+# 6. BONUS: Calculate the total amount of students in all cohorts by using each and incrementing a variable.
+# Output the result.
+puts ""
+
+
+def total_student(hash)
+  new_amount = 0
+  hash.each do |cohort, student_amount|
+  new_amount = new_amount + student_amount
+  puts "The new student amount for #{cohort} is #{new_amount}"
+  end
+end
+
+total_student(students)
